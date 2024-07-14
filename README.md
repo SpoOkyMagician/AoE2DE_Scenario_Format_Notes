@@ -6,3 +6,5 @@ Note: Most of my information comes from the scenario parser of course. (Thanks a
 https://github.com/KSneijders/AoE2ScenarioParser/blob/542f07414551eb2c15c7a8cbb7f7618b2ca4cab5/AoE2ScenarioParser/versions/DE/v1.51/structure.json
 
 Note: I was comparing a scenario I made in game ("_ALL_SCENARIO_STUFF_OBJECTS") to the actual results. (I wanted to be sure exactly what was happening to the file/bytes directly.)
+
+Progress: I am currently at disabled techs and I am considering giving up at this point. There is WAY TOO MUCH DATA to handle here... (I am sure I could finish it eventually but, ugh...)
