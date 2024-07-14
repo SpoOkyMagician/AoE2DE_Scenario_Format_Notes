@@ -1,0 +1,847 @@
+{
+	"scenario":
+	{
+		"version": "1.51",
+		"creator": "SpoOkyMagician",
+		"filename": "Filename.aoe2scenario",
+		"map":
+		{
+			"seed": 0,
+			"map_size": 35,
+			"default_terrain_id": 0,
+			"map_location": "Arabia",
+			"ai_type": "Arabia",
+			"color_mood": "Default",
+			"team_positions": true,
+			"xs_filename": "Filename.xs"
+		},
+		"terrain":
+		{
+			"eye_candy": true,
+			"shore_waves": true,
+			"water_definitions": "Preset_Main",
+			"map_tiles":
+			[
+				{
+					"x_value": 1,
+					"y_value": 1,
+					"base_terrain_id": 0,
+					"base_layer_id": 0,
+					"beach_terrain_id": 2,
+					"elevation": 0,
+					"cliff_direction": -1,
+					"cliff_type": -1,
+					"gaia_object_id": -1
+				},
+				{
+					"x_value": 35,
+					"y_value": 35,
+					"base_terrain_id": 0,
+					"base_layer_id": 0,
+					"beach_terrain_id": 2,
+					"elevation": 0,
+					"cliff_direction": -1,
+					"cliff_type": -1,
+					"gaia_object_id": -1
+				}
+			]
+		},
+		"players":
+		{
+			"number_of_players": 8,
+			"player":
+			[
+				{
+					"number": 0,
+					"starting_age": "Dark Age",
+					"color": "Gray",
+					"wood": 0,
+					"food": 0,
+					"gold": 0,
+					"stone": 0,
+					"population": 200,
+					"base_priority": 0,
+					"tribe_name": "Gaia",
+					"tribe_name_string_id": 0,
+					"ai_personality": "None",
+					"player_type": "Random",
+					"civilization": "Random",
+					"architecture": "Random",
+					"lock_civilization": true
+				},
+				{
+					"number": 1,
+					"starting_age": "Dark Age",
+					"color": "Blue",
+					"wood": 0,
+					"food": 0,
+					"gold": 0,
+					"stone": 0,
+					"population": 200,
+					"base_priority": 0,
+					"tribe_name": "Player 1",
+					"tribe_name_string_id": 0,
+					"ai_personality": "None",
+					"player_type": "Random",
+					"civilization": "Random",
+					"architecture": "Random",
+					"lock_civilization": true
+				},
+				{
+					"number": 2,
+					"starting_age": "Dark Age",
+					"color": "Red",
+					"wood": 0,
+					"food": 0,
+					"gold": 0,
+					"stone": 0,
+					"population": 200,
+					"base_priority": 0,
+					"tribe_name": "Player 2",
+					"tribe_name_string_id": 0,
+					"ai_personality": "None",
+					"player_type": "Random",
+					"civilization": "Random",
+					"architecture": "Random",
+					"lock_civilization": true
+				},
+				{
+					"number": 3,
+					"starting_age": "Dark Age",
+					"color": "Green",
+					"wood": 0,
+					"food": 0,
+					"gold": 0,
+					"stone": 0,
+					"population": 200,
+					"base_priority": 0,
+					"tribe_name": "Player 3",
+					"tribe_name_string_id": 0,
+					"ai_personality": "None",
+					"player_type": "Random",
+					"civilization": "Random",
+					"architecture": "Random",
+					"lock_civilization": true
+				},
+				{
+					"number": 4,
+					"starting_age": "Dark Age",
+					"color": "Yellow",
+					"wood": 0,
+					"food": 0,
+					"gold": 0,
+					"stone": 0,
+					"population": 200,
+					"base_priority": 0,
+					"tribe_name": "Player 4",
+					"tribe_name_string_id": 0,
+					"ai_personality": "None",
+					"player_type": "Random",
+					"civilization": "Random",
+					"architecture": "Random",
+					"lock_civilization": true
+				},
+				{
+					"number": 5,
+					"starting_age": "Dark Age",
+					"color": "Cyan",
+					"wood": 0,
+					"food": 0,
+					"gold": 0,
+					"stone": 0,
+					"population": 200,
+					"base_priority": 0,
+					"tribe_name": "Player 5",
+					"tribe_name_string_id": 0,
+					"ai_personality": "None",
+					"player_type": "Random",
+					"civilization": "Random",
+					"architecture": "Random",
+					"lock_civilization": true
+				},
+				{
+					"number": 6,
+					"starting_age": "Dark Age",
+					"color": "Purple",
+					"wood": 0,
+					"food": 0,
+					"gold": 0,
+					"stone": 0,
+					"population": 200,
+					"base_priority": 0,
+					"tribe_name": "Player 6",
+					"tribe_name_string_id": 0,
+					"ai_personality": "None",
+					"player_type": "Random",
+					"civilization": "Random",
+					"architecture": "Random",
+					"lock_civilization": true
+				},
+				{
+					"number": 7,
+					"starting_age": "Dark Age",
+					"color": "Gray",
+					"wood": 0,
+					"food": 0,
+					"gold": 0,
+					"stone": 0,
+					"population": 200,
+					"base_priority": 0,
+					"tribe_name": "Player 7",
+					"tribe_name_string_id": 0,
+					"ai_personality": "None",
+					"player_type": "Random",
+					"civilization": "Random",
+					"architecture": "Random",
+					"lock_civilization": true
+				},
+				{
+					"number": 8,
+					"starting_age": "Dark Age",
+					"color": "Orange",
+					"wood": 0,
+					"food": 0,
+					"gold": 0,
+					"stone": 0,
+					"population": 200,
+					"base_priority": 0,
+					"tribe_name": "Player 8",
+					"tribe_name_string_id": 0,
+					"ai_personality": "None",
+					"player_type": "Random",
+					"civilization": "Random",
+					"architecture": "Random",
+					"lock_civilization": true
+				}
+			]
+		},
+		"objects":
+		[
+			{
+				"instance_id": 1,
+				"owned_by_player": 0,
+				"object_list_type": 4,
+				"object_list": 285,
+				"object_group": 0,
+				"object_type": 0,
+				"facet": -1,
+				"is_garrisoned": -1,
+				"x_position": 17,
+				"y_position": 17,
+				"comment": "insert all unit stats here as well. there is way to many to list here... hitpoints, attack, range, los, movement speed, etc..."
+			},
+			{
+				"instance_id": 2,
+				"owned_by_player": 0,
+				"object_list_type": 4,
+				"object_list": 349,
+				"object_group": 0,
+				"object_type": 0,
+				"facet": -1,
+				"is_garrisoned": -1,
+				"x_position": 1,
+				"y_position": 1,
+				"comment": "insert all unit stats here as well. there is way to many to list here... hitpoints, attack, range, los, movement speed, etc..."
+			}
+		],
+		"diplomacy":
+		{
+			"max_teams": 4,
+			"locked_teams": true,
+			"choose_teams": true,
+			"random_start": true,
+			"player_diplomacy":
+			[
+				{
+					"this_player": 1,
+					"other_player": 2,
+					"alliance_type": "Ally",
+					"ally_victory": true
+				},
+				{
+					"this_player": 1,
+					"other_player": 3,
+					"alliance_type": "Ally",
+					"ally_victory": true
+				},
+				{
+					"this_player": 1,
+					"other_player": 4,
+					"alliance_type": "Ally",
+					"ally_victory": true
+				},
+				{
+					"this_player": 1,
+					"other_player": 5,
+					"alliance_type": "Enemy",
+					"ally_victory": true
+				},
+				{
+					"this_player": 1,
+					"other_player": 6,
+					"alliance_type": "Enemy",
+					"ally_victory": true
+				},
+				{
+					"this_player": 1,
+					"other_player": 7,
+					"alliance_type": "Enemy",
+					"ally_victory": true
+				},
+				{
+					"this_player": 1,
+					"other_player": 8,
+					"alliance_type": "Enemy",
+					"ally_victory": true
+				},
+				{
+					"this_player": 2,
+					"other_player": 1,
+					"alliance_type": "Ally",
+					"ally_victory": true
+				},
+				{
+					"this_player": 2,
+					"other_player": 3,
+					"alliance_type": "Ally",
+					"ally_victory": true
+				},
+				{
+					"this_player": 2,
+					"other_player": 4,
+					"alliance_type": "Ally",
+					"ally_victory": true
+				},
+				{
+					"this_player": 2,
+					"other_player": 5,
+					"alliance_type": "Enemy",
+					"ally_victory": false
+				},
+				{
+					"this_player": 2,
+					"other_player": 6,
+					"alliance_type": "Enemy",
+					"ally_victory": false
+				},
+				{
+					"this_player": 2,
+					"other_player": 7,
+					"alliance_type": "Enemy",
+					"ally_victory": false
+				},
+				{
+					"this_player": 2,
+					"other_player": 8,
+					"alliance_type": "Enemy",
+					"ally_victory": false
+				},
+				{
+					"this_player": 3,
+					"other_player": 1,
+					"alliance_type": "Ally",
+					"ally_victory": true
+				},
+				{
+					"this_player": 3,
+					"other_player": 2,
+					"alliance_type": "Ally",
+					"ally_victory": true
+				},
+				{
+					"this_player": 3,
+					"other_player": 4,
+					"alliance_type": "Ally",
+					"ally_victory": true
+				},
+				{
+					"this_player": 3,
+					"other_player": 5,
+					"alliance_type": "Enemy",
+					"ally_victory": false
+				},
+				{
+					"this_player": 3,
+					"other_player": 6,
+					"alliance_type": "Enemy",
+					"ally_victory": false
+				},
+				{
+					"this_player": 3,
+					"other_player": 7,
+					"alliance_type": "Enemy",
+					"ally_victory": false
+				},
+				{
+					"this_player": 3,
+					"other_player": 8,
+					"alliance_type": "Enemy",
+					"ally_victory": false
+				},
+				{
+					"this_player": 4,
+					"other_player": 1,
+					"alliance_type": "Ally",
+					"ally_victory": true
+				},
+				{
+					"this_player": 4,
+					"other_player": 2,
+					"alliance_type": "Ally",
+					"ally_victory": true
+				},
+				{
+					"this_player": 4,
+					"other_player": 3,
+					"alliance_type": "Ally",
+					"ally_victory": true
+				},
+				{
+					"this_player": 4,
+					"other_player": 5,
+					"alliance_type": "Enemy",
+					"ally_victory": false
+				},
+				{
+					"this_player": 5,
+					"other_player": 1,
+					"alliance_type": "Enemy",
+					"ally_victory": false
+				},
+				{
+					"this_player": 5,
+					"other_player": 2,
+					"alliance_type": "Enemy",
+					"ally_victory": false
+				},
+				{
+					"this_player": 5,
+					"other_player": 3,
+					"alliance_type": "Enemy",
+					"ally_victory": false
+				},
+				{
+					"this_player": 5,
+					"other_player": 4,
+					"alliance_type": "Enemy",
+					"ally_victory": false
+				},
+				{
+					"this_player": 5,
+					"other_player": 6,
+					"alliance_type": "Ally",
+					"ally_victory": true
+				},
+				{
+					"this_player": 5,
+					"other_player": 7,
+					"alliance_type": "Ally",
+					"ally_victory": true
+				},
+				{
+					"this_player": 5,
+					"other_player": 8,
+					"alliance_type": "Ally",
+					"ally_victory": true
+				},
+				{
+					"this_player": 6,
+					"other_player": 1,
+					"alliance_type": "Enemy",
+					"ally_victory": false
+				},
+				{
+					"this_player": 6,
+					"other_player": 2,
+					"alliance_type": "Enemy",
+					"ally_victory": false
+				},
+				{
+					"this_player": 6,
+					"other_player": 3,
+					"alliance_type": "Enemy",
+					"ally_victory": false
+				},
+				{
+					"this_player": 6,
+					"other_player": 4,
+					"alliance_type": "Enemy",
+					"ally_victory": false
+				},
+				{
+					"this_player": 6,
+					"other_player": 5,
+					"alliance_type": "Ally",
+					"ally_victory": true
+				},
+				{
+					"this_player": 6,
+					"other_player": 7,
+					"alliance_type": "Ally",
+					"ally_victory": true
+				},
+				{
+					"this_player": 6,
+					"other_player": 8,
+					"alliance_type": "Ally",
+					"ally_victory": true
+				},
+				{
+					"this_player": 7,
+					"other_player": 1,
+					"alliance_type": "Enemy",
+					"ally_victory": false
+				},
+				{
+					"this_player": 7,
+					"other_player": 2,
+					"alliance_type": "Enemy",
+					"ally_victory": false
+				},
+				{
+					"this_player": 7,
+					"other_player": 3,
+					"alliance_type": "Enemy",
+					"ally_victory": false
+				},
+				{
+					"this_player": 7,
+					"other_player": 4,
+					"alliance_type": "Enemy",
+					"ally_victory": false
+				},
+				{
+					"this_player": 7,
+					"other_player": 5,
+					"alliance_type": "Ally",
+					"ally_victory": true
+				},
+				{
+					"this_player": 7,
+					"other_player": 6,
+					"alliance_type": "Ally",
+					"ally_victory": true
+				},
+				{
+					"this_player": 7,
+					"other_player": 8,
+					"alliance_type": "Ally",
+					"ally_victory": true
+				},
+				{
+					"this_player": 8,
+					"other_player": 1,
+					"alliance_type": "Enemy",
+					"ally_victory": false
+				},
+				{
+					"this_player": 8,
+					"other_player": 2,
+					"alliance_type": "Enemy",
+					"ally_victory": false
+				},
+				{
+					"this_player": 8,
+					"other_player": 3,
+					"alliance_type": "Enemy",
+					"ally_victory": false
+				},
+				{
+					"this_player": 8,
+					"other_player": 4,
+					"alliance_type": "Enemy",
+					"ally_victory": false
+				},
+				{
+					"this_player": 8,
+					"other_player": 5,
+					"alliance_type": "Ally",
+					"ally_victory": true
+				},
+				{
+					"this_player": 8,
+					"other_player": 6,
+					"alliance_type": "Ally",
+					"ally_victory": true
+				},
+				{
+					"this_player": 8,
+					"other_player": 7,
+					"alliance_type": "Ally",
+					"ally_victory": true
+				}
+			]
+		},
+		"victory":
+		{
+			"type": "Standard",
+			"victory_score": -1,
+			"victory_time_years": -1,
+			"custom":
+			[
+				{
+					"custom_conquest": false,
+					"custom_exploration": false,
+					"custom_exploration_amount": 0,
+					"custom_relics": false,
+					"custom_relics_amount": 0,
+					"custom_any_all": "Any"
+				}
+			],
+			"victory_secondary":
+			[
+				{
+					"secondary_empire_wars": false,
+					"secondary_sudden_death": false,
+					"secondary_regicide": false,
+					"secondary_king_of_the_hill": false
+				}
+			]
+		},
+		"options":
+		{
+			"full_techs": false,
+			"difficulty": "Standard",
+			"collision_correction": false,
+			"force_drop": false,
+			"lock_coop_alliance": true,
+			"view_player":
+			[
+				{
+					"view_number": 0,
+					"view_x": 17,
+					"view_y": 17
+				},
+				{
+					"view_number": 1,
+					"view_x": 17,
+					"view_y": 17
+				},
+				{
+					"view_number": 2,
+					"view_x": 17,
+					"view_y": 17
+				},
+				{
+					"view_number": 3,
+					"view_x": 17,
+					"view_y": 17
+				},
+				{
+					"view_number": 4,
+					"view_x": 17,
+					"view_y": 17
+				},
+				{
+					"view_number": 5,
+					"view_x": 17,
+					"view_y": 17
+				},
+				{
+					"view_number": 6,
+					"view_x": 17,
+					"view_y": 17
+				},
+				{
+					"view_number": 7,
+					"view_x": 17,
+					"view_y": 17
+				},
+				{
+					"view_number": 8,
+					"view_x": 17,
+					"view_y": 17
+				}
+			],
+			"disabled_buildings_player":
+			[
+				{
+					"number": 1,
+					"disabled_building_id": 0,
+					"comment": "each disabled building id goes here..."
+				},
+				{
+					"number": 2,
+					"disabled_building_id": 0,
+					"comment": "each disabled building id goes here..."
+				},
+				{
+					"number": 3,
+					"disabled_building_id": 0,
+					"comment": "each disabled building id goes here..."
+				},
+				{
+					"number": 4,
+					"disabled_building_id": 0,
+					"comment": "each disabled building id goes here..."
+				},
+				{
+					"number": 5,
+					"disabled_building_id": 0,
+					"comment": "each disabled building id goes here..."
+				},
+				{
+					"number": 6,
+					"disabled_building_id": 0,
+					"comment": "each disabled building id goes here..."
+				},
+				{
+					"number": 7,
+					"disabled_building_id": 0,
+					"comment": "each disabled building id goes here..."
+				},
+				{
+					"number": 8,
+					"disabled_building_id": 0,
+					"comment": "each disabled building id goes here..."
+				}
+			],
+			"disabled_units_player":
+			[
+				{
+					"number": 1,
+					"disabled_unit_id": 0,
+					"comment": "each disabled unit id goes here..."
+				},
+				{
+					"number": 2,
+					"disabled_unit_id": 0,
+					"comment": "each disabled unit id goes here..."
+				},
+				{
+					"number": 3,
+					"disabled_unit_id": 0,
+					"comment": "each disabled unit id goes here..."
+				},
+				{
+					"number": 4,
+					"disabled_unit_id": 0,
+					"comment": "each disabled unit id goes here..."
+				},
+				{
+					"number": 5,
+					"disabled_unit_id": 0,
+					"comment": "each disabled unit id goes here..."
+				},
+				{
+					"number": 6,
+					"disabled_unit_id": 0,
+					"comment": "each disabled unit id goes here..."
+				},
+				{
+					"number": 7,
+					"disabled_unit_id": 0,
+					"comment": "each disabled unit id goes here..."
+				},
+				{
+					"number": 8,
+					"disabled_unit_id": 0,
+					"comment": "each disabled unit id goes here..."
+				}
+			],
+			"disabled_techs_player":
+			[
+				{
+					"number": 1,
+					"disabled_tech_id": 0,
+					"comment": "each disabled tech id goes here..."
+				},
+				{
+					"number": 2,
+					"disabled_tech_id": 0,
+					"comment": "each disabled tech id goes here..."
+				},
+				{
+					"number": 3,
+					"disabled_tech_id": 0,
+					"comment": "each disabled tech id goes here..."
+				},
+				{
+					"number": 4,
+					"disabled_tech_id": 0,
+					"comment": "each disabled tech id goes here..."
+				},
+				{
+					"number": 5,
+					"disabled_tech_id": 0,
+					"comment": "each disabled tech id goes here..."
+				},
+				{
+					"number": 6,
+					"disabled_tech_id": 0,
+					"comment": "each disabled tech id goes here..."
+				},
+				{
+					"number": 7,
+					"disabled_tech_id": 0,
+					"comment": "each disabled tech id goes here..."
+				},
+				{
+					"number": 8,
+					"disabled_tech_id": 0,
+					"comment": "each disabled tech id goes here..."
+				}
+			]
+		},
+		"messages":
+		{
+			"instructions_message": "INSTRUCTIONS",
+			"hints_message": "HINTS",
+			"victory_message": "VICTORY",
+			"loss_message": "LOSS",
+			"history_message": "HISTORY",
+			"scouts_message": "SCOUTS",
+			"instructions_message_id": 0,
+			"hints_message_id": 0,
+			"victory_message_id": 0,
+			"loss_message_id": 0,
+			"history_message_id": 0,
+			"scouts_message_id": 0
+		},
+		"cinematics":
+		{
+			"pregame_cinematic": "Filename",
+			"victory_cinematic": "Filename",
+			"loss_cinematic": "Filename",
+			"instructions_map": "Filename"
+		},
+		"triggers":
+		{
+			"trigger_instance":
+			[
+				{
+					"trigger_id": 0,
+					"trigger_total": 0,
+					"trigger_name": "Trigger <trigger_id>",
+					"starting_state": true,
+					"looping": false,
+					"trigger_description": "DESCRIPTION",
+					"display_as_objective": false,
+					"trigger_description_id": 0,
+					"trigger_short_description": "SHORT DESCRIPTION",
+					"display_on_screen": false,
+					"trigger_short_description_id": 0,
+					"make_header": false,
+					"objective_order": 0,
+					"mute_objectives": false,
+					"conditions":
+					[
+						{
+							"condition_id": 0,
+							"conditions_total": 0,
+							"comment": "too many to write here... but, you get the idea..."
+						}
+					],
+					"effects":
+					[
+						{
+							"effect_id": 0,
+							"effects_total": 0,
+							"comment": "too many to write here... but, you get the idea..."
+						}
+					]
+				}
+			]
+		}
+	}
+}
