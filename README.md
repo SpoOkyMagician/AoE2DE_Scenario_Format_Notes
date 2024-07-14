@@ -10,3 +10,5 @@ Note: I was comparing a scenario I made in game ("_ALL_SCENARIO_STUFF_OBJECTS") 
 Progress: I am currently at disabled techs and I am considering giving up at this point. There is WAY TOO MUCH DATA to handle here... (I am sure I could finish it eventually but, ugh...) Note: I left off at: 0000AC80 on "53 00 00 00".
 
 Personal Note: Honestly, there is way too much redundant/useless data in this file... (They really need to re-format this damn thing...)
+
+Personal Scenario Format Note: I made a file in json of what it honestly should look like... (generally speaking. not fully.)
