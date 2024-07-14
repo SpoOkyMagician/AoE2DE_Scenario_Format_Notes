@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+	<version>"1.51". (string)</version>
+	<creator>"SpoOkyMagician". (string)</creator>
+	<filename>"Filename.aoe2scenario". (string)</filename>
+	// anything else I am missing here that is required for it to work...
+	<map>
+		<seed>-2147483648 to 2147483647. Optional. (change datatype as needed.)</seed>
+		<map_size>1 to 7 or you could use map tiles. 35-480. (change datatype as needed.)</map_size>
+		<default_terrain>1 to 2147483647? (change datatype as needed.)</default_terrain>
+		<map_location>1 to 2147483647? Optional. (change datatype as needed.)</map_location>
+		<ai_type>1 to 2147483647? (change datatype as needed.)</ai_type>
+		<color_mood>1 to 6+. (change datatype as needed.)</color_mood>
+		<team_positions>0 to 1. (boolean)</team_positions>
+		<xs_filename>"Filename". (string)</xs_filename>
+	</map>
+	<terrain>
+		<eye_candy>0 to 1. Optional. (boolean)</eye_candy>
+		<shore_waves>0 to 1. Optional. (boolean)</shore_waves>
+		// some for loop pseudo code...
+		for each map_tile(x,y)
+			<map_tile>
+				<x_value>1 to 480.</x_value>
+				<y_value>1 to 480.</y_value>
+				<base_terrain>1 to 2147483647? You can also use strings. (change datatype as needed.)</base_terrain>
+				<base_layer>1 to 2147483647? You can also use strings. (change datatype as needed.)</base_layer>
+				<beach_terrain>1 to 2147483647? You can also use strings. (change datatype as needed.)</beach_terrain>
+				<elevation>1 to 7. (change datatype as needed.)</elevation>
+				<cliff>1 to 8? (however this is managed with directions and such. change datatype as needed.)</cliff>
+				<cliff_type>1 to 3. (change datatype as needed.)</cliff_type>
+				<gaia_object>0 to 2147483647? Such as trees, grass patches, eye candy, etc... may not be needed. objects might be a better section... (change datatype as needed.)</gaia_object>
+			</map_tile>
+		next map_tile(x,y)
+	</terrain>
+	<players>
+		<number_of_players>1 to 8. (change datatype as needed.)</number_of_players>
+		// some for loop pseudo code...
+		for each player_number
+			<player_number>
+				<starting_age>1 to 5. (change datatype as needed.)</starting_age>
+				<color>1 to 8. (change datatype as needed.)</color>
+				<wood>-2147483648 to 2147483647. (change datatype as needed.)</wood>
+				<food>-2147483648 to 2147483647. (change datatype as needed.)</food>
+				<gold>-2147483648 to 2147483647. (change datatype as needed.)</gold>
+				<stone>-2147483648 to 2147483647. (change datatype as needed.)</stone>
+				<population>25 to 500. (change datatype as needed.)</population>
+				<base_priority>0 to 9. (change datatype as needed.)</base_priority>
+				<tribe_name>"Tribe Name". (string)</tribe_name>
+				<tribe_name_string_id>0 to 2147483647? (change datatype as needed.)</tribe_name_string_id>
+				<ai_personality>"AI Filename". (string)</ai_personality>
+				<player_type>0 to 1. (boolean? change datatype as needed.)</player_type>
+				<civilization>1 to 64+. (change datatype as needed.)</civilization>
+				<architecture>1 to 64+. (change datatype as needed.)</architecture>
+				<lock_civilization>0 to 1. (boolean)</lock_civilization>
+			</player_number>
+		next player_number
+	</players>
+	// some for loop pseudo code...
+	for each object
+		<object>
+			<instance_id>1 to 2147483647 or 4,294,967,295? should default to 0 or 1 and go up as needed. (change datatype as needed.)</instance_id>
+			<owned_by_player>0 to 8. (change datatype as needed.)</owned_by_player>
+			<object_list_type>1 to 4? (units, buildings, heroes, or other. change datatype as needed.)</object_list_type>
+			<object_list>1 to 2147483647? Object ID. (change datatype as needed.)</object_list>
+			<object_group>1 to 2147483647? Group ID. (change datatype as needed.)</object_group>
+			<object_type>1 to 4? (building, civilian, military, other. change datatype as needed.)</object_type>
+			<facet>1 to 16+? direction facing. (change datatype as needed.)</facet>
+			<is_garrisoned>instance_id. 1 to 2147483647? (however this is managed... change datatype as needed.)</is_garrisoned>
+			<x_position>1 to 480. use floats if needed.</x_position>
+			<y_position>1 to 480. use floats if needed.</y_position>
+			// insert all unit stats here as well. there is way to many to list here...
+			// hitpoints, attack, range, los, movement speed, etc...
+		</object>
+	next object
+	<diplomacy>
+		<max_teams>1 to 3. (change datatype as needed.)</max_teams>
+		<locked_teams>0 to 1. (boolean)</locked_teams>
+		<choose_teams>0 to 1. (boolean)</choose_teams>
+		<random_start>0 to 1. (boolean)</random_start>
+		// some for loop pseudo code...
+		for each player_number
+			<diplomacy_player_number>
+				<this_player>1 to 8.</this_player>
+				<other_player>1 to 8.</other_player>
+				<alliance_type>1 to 3. strings could work too. (ally, neutral, or enemy)</alliance_type>
+				<ally_victory>0 to 1. (boolean)</ally_victory>
+			</diplomacy_player_number>
+		next player_number
+	</diplomacy>
+	<victory>
+		<type>1 to 6. (change datatype as needed.)</type>
+		<victory_score>1 to 11. (change datatype as needed.)</victory_score>
+		<victory_time>1 to 7. (change datatype as needed.)</victory_time>
+		<custom>
+			<custom_conquest>0 to 1. (boolean)</custom_conquest>
+			<custom_exploration>0 to 1. (boolean)</custom_exploration>
+			<custom_exploration_amount>0 to 100.</custom_exploration_amount>
+			<custom_relics>0 to 1. (boolean)</custom_relics>
+			<custom_relics_amount>0 to 99.</custom_relics_amount>
+			<custom_any_all>0 ot 1. (boolean)</custom_any_all>
+		</custom>
+		<victory_secondary>
+			<secondary_empire_wars>0 to 1. (boolean)</secondary_empire_wars>
+			<secondary_sudden_death>0 to 1. (boolean)</secondary_sudden_death>
+			<secondary_regicide>0 to 1. (boolean)</secondary_regicide>
+			<secondary_king_of_the_hill>0 to 1. (boolean)</secondary_king_of_the_hill>
+		</victory_secondary>
+	</victory>
+	<options>
+		<full_techs>0 to 1. (boolean)</full_techs>
+		<difficulty>1 to 6.</difficulty>
+		<collision_correction>0 to 1. (boolean)</collision_correction>
+		<force_drop>0 to 1. (boolean)</force_drop>
+		<lock_coop_alliance>0 to 1. (boolean)</lock_coop_alliance>
+		// some for loop pseudo code...
+		for each player_number
+			<view_player_number>
+				<view_x>1 to 480.</view_x>
+				<view_y>1 to 480.</view_y>
+			</view_player_number>
+			<disabled_buildings_player_number>
+				for each disabled_building_id
+					<disabled_building_id>ID 0 to 2147483647. (change datatype as needed.)</disabled_building_id>
+				next disabled_building_id
+			</disabled_buildings_player_number>
+			<disabled_units_player_number>
+				for each disabled_unit_id
+					<disabled_unit_id>ID 0 to 2147483647. (change datatype as needed.)</disabled_unit_id>
+				next disabled_unit_id
+			</disabled_units_player_number>
+			<disabled_techs_player_number>
+				for each disabled_tech_id
+					<disabled_tech_id>ID 0 to 2147483647. (change datatype as needed.)</disabled_tech_id>
+				next disabled_tech_id
+			</disabled_techs_player_number>
+		next player_number
+	</options>
+	<messages>
+		<instructions_message>"Message". (string)</instructions_message>
+		<hints_message>"Message". (string)</hints_message>
+		<victory_message>"Message". (string)</victory_message>
+		<loss_message>"Message". (string)</loss_message>
+		<history_message>"Message". (string)</history_message>
+		<scout_message>"Message". (string)</scout_message>
+		<instructions_message_id>0 to 2147483647. (change datatype as needed.)</instructions_message_id>
+		<hints_message_id>0 to 2147483647. (change datatype as needed.)</hints_message_id>
+		<victory_message_id>0 to 2147483647. (change datatype as needed.)</victory_message_id>
+		<loss_message_id>0 to 2147483647. (change datatype as needed.)</loss_message_id>
+		<history_message_id>0 to 2147483647. (change datatype as needed.)</history_message_id>
+		<scout_message_id>0 to 2147483647. (change datatype as needed.)</scout_message_id>
+	</messages>
+	<cinematics>
+		<pregame_cinematic>"Filename". (string)</pregame_cinematic>
+		<victory_cinematic>"Filename". (string)</victory_cinematic>
+		<loss_cinematic>"Filename". (string)</loss_cinematic>
+		<instructions_map>"Filename". (string)</instructions_map>
+	</cinematics>
+	<triggers>
+		// some for loop pseudo code...
+		for each trigger_id
+			<trigger_id>
+				<trigger_id>0 to 2147483647. (refers to the instance id/reference. change datatype as needed.)</trigger_id>
+				<trigger_total>0 to 2147483647+. (default 0. +1 each time added new added. -1 for each deleted.)</trigger_total>
+				<trigger_name>"Trigger " + trigger_id. (string)</trigger_name>
+				<starting_state>0 to 1. (boolean)</starting_state>
+				<looping>0 to 1. (boolean)</looping>
+				<trigger_description>"Description". (string)</trigger_description>
+				<display_as_objective>0 to 1. (boolean)</display_as_objective>
+				<trigger_description_id>0 to 2147483647. (change datatype as needed.)</trigger_description_id>
+				<trigger_short_description>"Description". (string)</trigger_short_description>
+				<display_on_screen>0 to 1. (boolean)</display_on_screen>
+				<trigger_short_description_id>0 to 2147483647. (change datatype as needed.)</trigger_short_description_id>
+				<make_header>0 to 1. (boolean)</make_header>
+				<objective_order>0 to 2147483647. (change datatype as needed.)</objective_order>
+				<mute_objectives>0 to 1. (boolean)</mute_objectives>
+				// some for loop pseudo code...
+				for each condition
+					<condition_id>0 to 2147483647. (refers to the instance id/reference. change datatype as needed.)</condition_id>
+					// too many to write here... but, you get the idea...
+				next condition
+				for each effect
+					<effect_id>0 to 2147483647. (refers to the instance id/reference. change datatype as needed.)</effect_id>
+					// too many to write here... but, you get the idea...
+				next effect
+			</trigger_id>
+		next trigger_id
+	</triggers>
+</scenario>
