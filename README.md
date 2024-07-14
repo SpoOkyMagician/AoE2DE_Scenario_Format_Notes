@@ -11,4 +11,4 @@ Progress: I am currently at disabled techs and I am considering giving up at thi
 
 Personal Note: Honestly, there is way too much redundant/useless data in this file... (They really need to re-format this damn thing...)
 
-Personal Scenario Format Note: I made a file in json of what it honestly should look like... (generally speaking. not fully.)
+Personal Scenario Format Note: I made a file in xml/json of what it honestly should look like... (generally speaking. not fully.)
