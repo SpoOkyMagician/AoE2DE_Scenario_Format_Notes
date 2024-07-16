@@ -1,4 +1,25 @@
 # AoE2DE_Scenario_Format_Notes
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[FORMAT_FOLDER]
+
+This is the primary documentation. See "1_51_Structure_Notes.txt" Also, "BYTE_NOTES.txt" might help explain a few things more to you as well.
+
+[ORIGINAL_SCENARIO]
+
+This contains the original scenario files that you can reference. 
+
+[PERSONAL_FORMAT_FOLDER]
+
+This is what I WISH the scenario format was... I wrote this a while back. I recently converted it to json.
+
+[VISUAL_BASIC_CODE]
+
+This Visual Basic code will let you decompress/compress the scenario as needed.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 This is my notes on the scenario format of 1.51... I am really getting frustrated working on this so, I am going to upload my current notes. I dunno if I will finish these but, this will hopefully explain it a bit more to you.
 
 Note: Most of my information comes from the scenario parser of course. (Thanks a lot KSneijders.)
