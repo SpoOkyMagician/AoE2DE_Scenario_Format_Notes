@@ -14,3 +14,5 @@ Personal Note: Honestly, there is way too much redundant/useless data in this fi
 Personal Scenario Format Note: I made a file in xml/json of what it honestly should look like... (generally speaking. not fully.)
 
 update: Added the scenario header and decompressed file.
+
+update: Added program.vb to decompress/compress scenarios. (Visual Basic)
