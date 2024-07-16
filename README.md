@@ -20,3 +20,5 @@ update: Added program.vb to decompress/compress scenarios. (Visual Basic) Pretty
 Header Note: If you are wondering, the compression starts 4 characters after the "creator name". It usually starts with a [] looking character. (It's a byte.) You can remove all the stuff before that (but, be sure to back it up somewhere! you still need this data!) and you can decompress the remaining data. Just remember, once you are done editing the decompressed data, compress it, and re add all the previous data (header) to the file and it should load just fine in game. (assuming nothing goes wrong with the decompressed data...)
 
 update: added folders to organize this stuff better...
+
+minor note: Fun fact, SOME '.dat' files can be decompressed with this. Even the "empires2_x2_p1.dat" file. :D
