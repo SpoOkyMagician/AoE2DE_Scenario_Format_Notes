@@ -8,15 +8,15 @@ This is the primary documentation. See "1_51_Structure_Notes.txt" Also, "BYTE_NO
 
 [ORIGINAL_SCENARIO]
 
-This contains the original scenario files that you can reference. 
+This contains the original scenario files that you can reference with "1_51_Structure_Notes.txt" above.
 
 [PERSONAL_FORMAT_FOLDER]
 
-This is what I WISH the scenario format was... I wrote this a while back. I recently converted it to json.
+This is what *I WISH* the scenario format was... I wrote this a while back. I recently converted it to json.
 
 [VISUAL_BASIC_CODE]
 
-This Visual Basic code will let you decompress/compress the scenario as needed.
+This Visual Basic code will let you Decompress/Compress the scenario as needed. (See Header Note below.)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
