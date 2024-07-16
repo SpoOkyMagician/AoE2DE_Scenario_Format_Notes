@@ -15,4 +15,4 @@ Personal Scenario Format Note: I made a file in xml/json of what it honestly sho
 
 update: Added the scenario header and decompressed file.
 
-update: Added program.vb to decompress/compress scenarios. (Visual Basic)
+update: Added program.vb to decompress/compress scenarios. (Visual Basic) Pretty much all the credit goes to the site's owner/creator/host. Thanks!
