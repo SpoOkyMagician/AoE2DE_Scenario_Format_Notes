@@ -21,4 +21,4 @@ Header Note: If you are wondering, the compression starts 4 characters after the
 
 update: added folders to organize this stuff better...
 
-minor note: Fun fact, SOME '.dat' files can be decompressed with this. Even the "empires2_x2_p1.dat" file. :D
+minor note: Fun fact, SOME '.dat' files can be decompressed with this program.vb code. Even the "empires2_x2_p1.dat" file. :D
